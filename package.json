@@ -1,0 +1,24 @@
+{
+  "name": "tools-typescript",
+  "version": "1.0.0",
+  "author": "mustafa.hussain@wiztech.pk",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register main.ts",
+    "start-dev": "ts-node-dev --respawn main.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "glob": "^8.1.0",
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.0.1",
+    "@types/md5": "^2.3.2",
+    "@types/node": "^18.13.0",
+    "cross-env": "^7.0.3",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.1.2",
+    "typescript": "^4.9.5"
+  }
+}
